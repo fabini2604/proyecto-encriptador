@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>ENCRIPTADOR</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="estilo.css">
+
+    </head>
+
+    <body>
+
+        <header>
+            <div class="principal">
+                <img class="encabezado" src="candado.png">
+                <h1 class="titulo">Encriptador Secreto</h1>
+            </div>
+ 
+        </header>
+
+        <main>
+                <section>
+                    
+                    <label for="texto" class="ingreso">Ingresar texto a encriptar</label>
+                    <textarea cols="60" rows="20" class='textoencriptar'  required placeholder='&#9888; Solo letras minúsculas y sin acentos'></textarea>
+                    <button  class="encriptar" onclick="btn()">Encriptar</button>
+                    <button  class="desencriptar" onclick="btnn()">Desencriptar</button>
+                    
+                </section>
+                <section>
+                    <textarea cols="60" rows="20" class="mensaje" ></textarea>
+                </section>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+        </main>
+        
+        <footer>
+            <img src="f.png">
+            <p class="copyright">&copy; Copyright Fabio Yujra</p>
+        </footer>
+        <script src="script.js">
+        </script>
+    </body>
+</html>
+
+
